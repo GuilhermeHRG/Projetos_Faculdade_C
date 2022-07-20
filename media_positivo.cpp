@@ -1,6 +1,6 @@
-/*17. Fazer um programa no qual o usu·rio vai entrando sucessivamente com valores
-positivos. Quando o usu·rio entrar com um valor negativo o programa p·ra de
-pedir valores e calcula a mÈdia dos valores j· fornecidos.*/
+/*17. Fazer um programa no qual o usu√°rio vai entrando sucessivamente com valores
+positivos. Quando o usu√°rio entrar com um valor negativo o programa p√°ra de
+pedir valores e calcula a m√©dia dos valores j√° fornecidos.*/
 #include<stdio.h>
 #include<locale.h>
 
@@ -24,7 +24,7 @@ int main()
 printf("%d",sm);
 printf("%d",qtd);
 md=sm/qtd;
-printf(" a mÈdia È :%.2f",md);
+printf(" a m√©dia √© =%.2f",md);
 
 
 }
