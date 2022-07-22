@@ -25,7 +25,7 @@ while True:
         break
     if dig == n:
         print('==================================================')
-        print(f'ISSOOOO!!!!  o número secreto é {n}.\U0001F60B')
+        print(f'ISSOOO!!!!  o número secreto é {n}.\U0001F60B')
         cont += 1
         print(f'E usou {cont} tentativas até chegar no número secreto.')
         print('==================================================')
