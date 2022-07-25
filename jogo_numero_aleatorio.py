@@ -8,7 +8,7 @@ while login !=cadu or senha!=cads:
     senha=input('digite sua senha: ')
 else:
     print('\nlogado com sucesso.')
-    print('VAMOS JOGAR!!!')
+    print('VAMOS JOGAR!!!!')
 import random
 print('================================')
 print('TENTE ACERTAR O NÚMERO SECRETO')
