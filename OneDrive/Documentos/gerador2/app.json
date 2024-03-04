@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "gerador",
+    "entryPoint": "./home.js",
+    "slug": "gerador",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#025951"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "bundleIdentifier": "s"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#025951"
+      },
+      "package": "com.guilherme_guelere.gerador",
+      "runtimeVersion": "1.0.1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fde213c3-d376-40cb-b694-ee48ea6185a8"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fde213c3-d376-40cb-b694-ee48ea6185a8"
+    }
+  }
+}
