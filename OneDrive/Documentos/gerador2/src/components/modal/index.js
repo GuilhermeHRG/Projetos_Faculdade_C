@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     salvar: {
         width: 'auto',
         height: 'auto',
-        backgroundColor: '#03A63C',
+        backgroundColor: '#107361',
         marginRight: 50,
         borderRadius: 8,
         justifyContent: 'center',

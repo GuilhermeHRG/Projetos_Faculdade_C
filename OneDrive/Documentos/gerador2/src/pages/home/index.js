@@ -70,7 +70,7 @@ const MySlider = () => {
 export function Home() {
     return (
         <LinearGradient
-            colors={['#034159', '#025951']}
+            colors={['#14140F', '#0F5959']}
             style={styles.gradientBackground}
         >
             <View style={styles.container}>
@@ -109,7 +109,9 @@ const styles = StyleSheet.create({
     },
     logo: {
         alignItems: 'center',
-        marginTop: 150,
+        marginTop: 100,
+        width: 250,
+        height: 250,
     },
     gradientBackground: {
         flex: 1,
@@ -120,7 +122,7 @@ const styles = StyleSheet.create({
     sliderValueText: {
         fontSize: 30,
         padding: 8,
-        backgroundColor: '#034159',
+        backgroundColor: '#107361',
         borderRadius: 8,
         color: '#fff',
     },
@@ -138,7 +140,7 @@ const styles = StyleSheet.create({
     },
     buttonSalvar: {
         marginTop: 30,
-        backgroundColor: '#038C3E',
+        backgroundColor: '#107361',
         width: 'auto',
         alignItems: 'center',
         justifyContent: 'center',

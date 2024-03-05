@@ -37,7 +37,7 @@ export function Senhas() {
 
     return (
         <LinearGradient
-            colors={['#034159', '#025951']}
+            colors={['#14140F', '#0F5959']}
             style={styles.container}
         >
             <View style={{ flex: 1 }}>
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         height: '10%',
         marginTop: 60,
-        marginLeft: 8,
+        marginLeft: 20,
     },
     title: {
         fontSize: 30,
@@ -96,12 +96,12 @@ const styles = StyleSheet.create({
     },
     containerPass: {
         flex: 1,
-        width: '95%',
+        width: '100%',
         marginTop: 20,
         padding: 14,
     },
     deleteAllButton: {
-        backgroundColor: 'red',
+        backgroundColor: '#C43302',
         padding: 10,
         borderRadius: 8,
         marginTop: 20,
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     deleteAllButtonText: {
         color: '#fff',
         textAlign: 'center',
-        fontSize: 16,
+        fontSize: 18,
     },
     input: {
         height: 40,
